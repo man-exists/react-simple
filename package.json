@@ -1,0 +1,33 @@
+{
+  "name": "react-simple",
+  "version": "1.0.0",
+  "description": "A template for cra",
+  "author": "man-exists",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "eslint-plugin-react": "^7.26.1"
+  }
+}
